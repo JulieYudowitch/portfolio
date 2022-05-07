@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
+import Script from "next/script";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Nav from "../components/Nav/Nav";
@@ -34,6 +35,19 @@ export default function Home(props) {
         <meta name="theme-color" content="#000000" />
         <title>"Julie Yudowitch Web Developer"</title>
       </Head>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-Z1PTGJM5PZ"
+        strategy="afterInteractive"
+      ></Script>
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-Z1PTGJM5PZ');
+        `}
+      </Script>
       <Nav />
       <Banner />
       <div className={styles.homeGrid}>
@@ -53,10 +67,10 @@ export default function Home(props) {
         </div>
         <div className={styles.homeIntroCard}>
           <p className={styles.homeIntro}>
-            Hi I'm Julie Yudowitch, a Front-end JavaScript Developer. I started out
-            working with React and then began using Next.js when I learned about
-            it's SEO benefits. I enjoy gardening, fixing stuff, and solving
-            problems!
+            Hi I'm Julie Yudowitch, a Front-end JavaScript Developer. I started
+            out working with React and then began using Next.js when I learned
+            about it's SEO benefits. I enjoy gardening, fixing stuff, and
+            solving problems!
           </p>
         </div>
       </div>
