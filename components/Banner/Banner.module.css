@@ -85,6 +85,9 @@ font-weight: 400;
 .homeTitleDescript {
   font-size: 30px;
 }
+.homeTitleWrapper {
+  height: 450px;
+}
 }
 
 @media (max-width: 1000px) {
