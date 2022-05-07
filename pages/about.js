@@ -35,9 +35,9 @@ function About(props) {
           <div className={styles.infoContainer}>
             <p className={styles.info}>
               I studied Web Development on CodeCademy and completed thier
-              Front-end program in Nov 2021. 
+              Front-end program in Nov 2021.
             </p>
-            <ul>
+            <ul className={styles.infoUL}>
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>
