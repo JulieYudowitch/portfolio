@@ -1,0 +1,128 @@
+.aboutPage {
+color: #0e1d30;
+}
+
+.aboutPageContent {  
+  position: relative;  
+  padding-top: 200px;
+}
+
+.aboutGrid {
+  display: grid;
+  grid-template-areas:
+    "abtimg abt"
+   ;
+  grid-template-columns: 1fr 1.5fr;
+  padding: 50px;
+  gap: 50px;
+}
+
+.aboutImgContainer {
+  grid-area: abtimg;
+  margin: 0;
+}
+.aboutImg {
+  display: flex;
+  border: 0.5px solid rgb(175, 173, 173);
+  box-shadow: 2px 3px 5px rgb(68, 66, 66);
+  width: 100%;
+  margin: auto;
+}
+
+.aboutImgName {
+  margin-bottom: 0;
+  font-size: 33px;
+}
+
+.infoContainer {
+  grid-area: abt;
+  margin: 0;
+}
+
+.info {
+  margin: 0;
+  font-size: 25px;
+  border: 0.5px solid rgb(175, 173, 173);
+  box-shadow: 2px 3px 5px rgb(68, 66, 66);
+  background-color: rgb(208, 215, 222);
+  padding: 60px;
+}
+
+.aboutPageCallPrompt {
+  grid-area: abtb;
+  margin: auto;
+  
+}
+
+.magicVidContainer {
+  grid-area: mvid;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  width: 100%;
+  margin: auto;
+}
+.magicVid {
+  border: 0.5px solid rgb(7, 7, 7);
+  box-shadow: 2px 3px 5px rgb(68, 66, 66);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+@media (max-width: 1550px) {
+  .info {
+    font-size: 18px;
+  }
+
+  .aboutPageContent {
+    padding-top: 110px;
+  }
+}
+
+
+
+
+@media (max-width: 1000px) {
+  .aboutGrid {
+    grid-template-areas:
+      "abtimg"
+      "abt"
+      ;
+    grid-template-columns: 100%;
+  }
+   .aboutPageContent {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 900px) {
+.aboutPageContent {
+    padding-top: 90px;
+  }
+  .magicVid {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+.aboutGrid {
+  padding: 20px;
+}
+.info {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+.aboutPageContent {
+    padding-top: 80px;
+  }
+  .info {
+    font-size: 18px;
+  }
+}
