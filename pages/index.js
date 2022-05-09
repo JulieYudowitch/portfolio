@@ -73,6 +73,21 @@ export default function Home(props) {
             solving problems!
           </p>
         </div>
+        <div className={styles.projects}>
+          <h2>Projects</h2>
+          <div className={styles.projectImg}>
+            <Image
+              src="/sample.webp"
+              alt=""
+              width="1068"
+              height="900"
+              placeholder="blur"
+              blurDataURL="/sample.webp"
+            />
+          </div>
+          <p>COMING SOON!</p>
+          <p>An internationalized website using i18next to deliver content in both English and Spanish.</p>
+        </div>
       </div>
       <Footer />
     </div>

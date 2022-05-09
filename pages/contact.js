@@ -9,7 +9,7 @@ function Contact(props) {
     <div className={styles.contactPage}>
       <Head>
         <meta name="robots" content="noindex, follow" />
-        <meta name="description" content="contact" />
+        <meta name="description" content="Contact | JY" />
         <title>Contact | JY</title>
       </Head>
       
