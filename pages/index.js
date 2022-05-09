@@ -77,12 +77,12 @@ export default function Home(props) {
           <h2>Projects</h2>
           <div className={styles.projectImg}>
             <Image
-              src="/sample.webp"
+              src="/project.webp"
               alt=""
-              width="1068"
-              height="900"
+              width="1133"
+              height="894"
               placeholder="blur"
-              blurDataURL="/sample.webp"
+              blurDataURL="/project.webp"
             />
           </div>
           <p>COMING SOON!</p>
