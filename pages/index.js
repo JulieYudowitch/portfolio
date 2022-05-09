@@ -33,7 +33,7 @@ export default function Home(props) {
         <meta name="description" content="Front-end Developer | Next.js" />
         <meta name="robots" content="index, follow" />
         <meta name="theme-color" content="#000000" />
-        <title>"Julie Yudowitch Web Developer"</title>
+        <title>Julie Yudowitch Web Developer</title>
       </Head>
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-Z1PTGJM5PZ"
