@@ -92,10 +92,16 @@ export default function Home(props) {
             </div>
           </a>
 
-          <p>
-            An internationalized website using i18next to deliver content in
-            both English and Spanish.
-          </p>
+          <a
+            href="https://internationalbusiness.netlify.app/"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <p>
+              An internationalized website using i18next to deliver content in
+              both English and Spanish.
+            </p>
+          </a>
         </div>
       </div>
       <Footer />
