@@ -68,25 +68,34 @@ export default function Home(props) {
         <div className={styles.homeIntroCard}>
           <p className={styles.homeIntro}>
             Hi I'm Julie Yudowitch, a Front-end JavaScript Developer. I started
-            out working with React and then began using Next.js when I learned
-            about it's SEO benefits. I enjoy gardening, fixing stuff, and
-            solving problems!
+            out working with React then began using Next.js when I learned about
+            it's SEO benefits. I enjoy gardening, DIY/fixing stuff, and solving
+            problems.
           </p>
         </div>
         <div className={styles.projects}>
           <h2>Projects</h2>
-          <div className={styles.projectImg}>
-            <Image
-              src="/project.webp"
-              alt=""
-              width="1133"
-              height="894"
-              placeholder="blur"
-              blurDataURL="/project.webp"
-            />
-          </div>
-          <p>COMING SOON!</p>
-          <p>An internationalized website using i18next to deliver content in both English and Spanish.</p>
+          <a
+            href="https://internationalbusiness.netlify.app/"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <div className={styles.projectImg}>
+              <Image
+                src="/project.webp"
+                alt=""
+                width="1133"
+                height="894"
+                placeholder="blur"
+                blurDataURL="/project.webp"
+              />
+            </div>
+          </a>
+
+          <p>
+            An internationalized website using i18next to deliver content in
+            both English and Spanish.
+          </p>
         </div>
       </div>
       <Footer />
