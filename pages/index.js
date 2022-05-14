@@ -84,8 +84,8 @@ export default function Home(props) {
               <Image
                 src="/project.webp"
                 alt=""
-                width="1133"
-                height="894"
+                width="1447"
+                height="860"
                 placeholder="blur"
                 blurDataURL="/project.webp"
               />
