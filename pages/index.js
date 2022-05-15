@@ -62,7 +62,6 @@ export default function Home(props) {
               blurDataURL="/avatar.webp"
             />
           </div>
-          <p>Julie Yudowitch</p>
           <p>Front-End Developer | Next.js</p>
         </div>
         <div className={styles.homeIntroCard}>

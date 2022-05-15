@@ -19,7 +19,7 @@ function About(props) {
           <div className={styles.aboutImgContainer}>
             <div className={styles.aboutImg}>
               <Image
-                src="/avatar.webp"
+                src="/avatar2.webp"
                 priority
                 alt=""
                 width="738"
