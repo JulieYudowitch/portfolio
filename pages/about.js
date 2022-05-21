@@ -38,8 +38,8 @@ function About(props) {
               Front-end program in Nov 2021.
             </p>
             <ul className={styles.infoUL}>
-              <li>HTML</li>
-              <li>CSS</li>
+              <li className={styles.infoLI}>HTML</li>
+              <li className={styles.infoLI}>CSS</li>
               <li>JavaScript</li>
               <li>Next</li>
               <li>React</li>
@@ -51,6 +51,8 @@ function About(props) {
               <li>APIs</li>
               <li>Responsive Web Design</li>
               <li>Bootstrap</li>
+              <li>Tailwind</li>
+              <li>SEO</li>
               <li>Internationalization using i18next</li>
             </ul>
           </div>
