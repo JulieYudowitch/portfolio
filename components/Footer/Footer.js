@@ -55,7 +55,7 @@ function Footer() {
             <FontAwesomeIcon color="#ded7f4" icon={faTwitter} size="2x" />
           </a>
           <a
-            href="https://www.tiktok.com/@julieyudowitch"
+            href="https://www.tiktok.com/@julie_yudowitch"
             className={styles.socialLink}
             target="blank"
             rel="noopener noreferrer"
