@@ -31,28 +31,12 @@ function Footer() {
             <FontAwesomeIcon color="#ded7f4" icon={faGithub} size="2x" />
           </a>
           <a
-            href="https://www.facebook.com/Julieyudowitch"
-            className={styles.socialLink}
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon color="#ded7f4" icon={faFacebook} size="2x" />
-          </a>
-          <a
             href="https://instagram.com/julieyudowitch"
             className={styles.socialLink}
             target="blank"
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon color="#ded7f4" icon={faInstagram} size="2x" />
-          </a>
-          <a
-            href="https://twitter.com/YudowitchJulie"
-            className={styles.socialLink}
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon color="#ded7f4" icon={faTwitter} size="2x" />
           </a>
           <a
             href="https://www.tiktok.com/@julie_yudowitch"
