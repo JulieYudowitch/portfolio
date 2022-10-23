@@ -30,25 +30,17 @@ function Footer() {
           >
             <FontAwesomeIcon color="#ded7f4" icon={faGithub} size="2x" />
           </a>
-          <a
-            href="https://instagram.com/julieyudowitch"
-            className={styles.socialLink}
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon color="#ded7f4" icon={faInstagram} size="2x" />
-          </a>
-          <a
-            href="https://www.tiktok.com/@julie_yudowitch"
-            className={styles.socialLink}
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon color="#ded7f4" icon={faTiktok} size="2x" />
-          </a>
         </div>
+        <a
+          href="mailto: julieyudo@gmail.com"
+          className={styles.email}
+          target="blank"
+          rel="noopener noreferrer"
+        >
+          julieyudo@gmail.com
+        </a>
         <p className={styles.copyright}>
-          &copy;{new Date().getFullYear()} Julie Yudowitch | All rights reserved
+          &copy;{new Date().getFullYear()} Julie Yudowitch
         </p>
       </div>
     </footer>

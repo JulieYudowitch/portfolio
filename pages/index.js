@@ -3,9 +3,9 @@ import Head from "next/head";
 import Script from "next/script";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Nav from "../components/Nav/Nav";
 import Footer from "../components/Footer/Footer";
 import Banner from "../components/Banner/Banner";
+import { faShuttleSpace } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home(props) {
   return (
@@ -48,61 +48,196 @@ export default function Home(props) {
           gtag('config', 'G-Z1PTGJM5PZ');
         `}
       </Script>
-      <Nav />
+
       <Banner />
-      <div className={styles.homeGrid}>
-        <div className={styles.homeImgContainer}>
-          <div className={styles.homeImg}>
-            <Image
-              src="/avatar.webp"
-              alt=""
-              width="738"
-              height="826"
-              placeholder="blur"
-              blurDataURL="/avatar.webp"
-            />
-          </div>
-          <p>Front-End Developer | Next.js</p>
-        </div>
-        <div className={styles.homeIntroCard}>
-          <p className={styles.homeIntro}>
-            Hi I'm Julie Yudowitch, a Front-end JavaScript Developer. I started
-            out working with React then began using Next.js when I learned about
-            it's SEO benefits. I enjoy gardening, DIY/fixing stuff, and solving
-            problems.
-          </p>
-        </div>
-        <div className={styles.projects}>
-          <h2>Projects</h2>
-          <a
-            href="https://internationalbusiness.netlify.app/"
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            <div className={styles.projectImg}>
+      <div className={styles.gradientsection}>
+        <div className={styles.homeGrid}>
+          <div className={styles.homeImgContainer}>
+            <div className={styles.homeImg}>
               <Image
-                src="/project.webp"
+                src="/avatar.webp"
                 alt=""
-                width="1447"
-                height="860"
+                width="738"
+                height="826"
                 placeholder="blur"
-                blurDataURL="/project.webp"
+                blurDataURL="/avatar.webp"
               />
             </div>
-          </a>
-
-          <a
-            href="https://internationalbusiness.netlify.app/"
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            <p>
-              An internationalized website using i18next to deliver content in
-              both English and Spanish.
+            <p className={styles.name}>Front-End Developer | Next.js</p>
+          </div>
+          <div className={styles.homeIntroCard}>
+            <p className={styles.homeIntro}>
+              Hi I'm Julie Yudowitch and I build responsive webapps using
+              Next.js and React. I studied Web Development on CodeCademy and
+              completed thier Front-end path in Nov 2021. I enjoy solving
+              problems whether it requires a little out of the box thinking,
+              something much more practical or maybe a mixture of both!
             </p>
-          </a>
+          </div>
+        </div>
+        <div className={styles.tech}>
+          <div className={styles.nextImgContainer}>
+            <div className={styles.nextImg}>
+              <Image
+                src="/next.png"
+                alt=""
+                width="500"
+                height="500"
+                placeholder="blur"
+                blurDataURL="/next.png"
+              />
+            </div>
+          </div>
+
+          <div className={styles.reactImgContainer}>
+            <div className={styles.reactImg}>
+              <Image
+                src="/react.png"
+                alt=""
+                width="522"
+                height="343"
+                placeholder="blur"
+                blurDataURL="/react.png"
+              />
+            </div>
+          </div>
+
+          <div className={styles.htmlImgContainer}>
+            <div className={styles.htmlImg}>
+              <Image
+                src="/html.png"
+                alt=""
+                width="331"
+                height="433"
+                placeholder="blur"
+                blurDataURL="/html.png"
+              />
+            </div>
+          </div>
+
+          <div className={styles.cssImgContainer}>
+            <div className={styles.cssImg}>
+              <Image
+                src="/css.png"
+                alt=""
+                width="315"
+                height="430"
+                placeholder="blur"
+                blurDataURL="/css.png"
+              />
+            </div>
+          </div>
+
+          <div className={styles.jsImgContainer}>
+            <div className={styles.jsImg}>
+              <Image
+                src="/js.jpg"
+                alt=""
+                width="449"
+                height="446"
+                placeholder="blur"
+                blurDataURL="/js.jpg"
+              />
+            </div>
+          </div>
+
+          <div className={styles.gitImgContainer}>
+            <div className={styles.gitImg}>
+              <Image
+                src="/git.png"
+                alt=""
+                width="910"
+                height="380"
+                placeholder="blur"
+                blurDataURL="/git.png"
+              />
+            </div>
+          </div>
+
+          <div className={styles.nodeImgContainer}>
+            <div className={styles.nodeImg}>
+              <Image
+                src="/node.png"
+                alt=""
+                width="800"
+                height="600"
+                placeholder="blur"
+                blurDataURL="/node.png"
+              />
+            </div>
+          </div>
         </div>
       </div>
+      <div className={styles.projects}>
+        <h2>Projects</h2>
+        <a
+          href="https://internationalbusiness.netlify.app/"
+          target="blank"
+          rel="noopener noreferrer"
+        >
+          <div className={styles.projectImg}>
+            <Image
+              src="/project.webp"
+              alt=""
+              width="1447"
+              height="860"
+              placeholder="blur"
+              blurDataURL="/project.webp"
+            />
+          </div>
+        </a>
+
+        <a
+          href="https://internationalbusiness.netlify.app/"
+          target="blank"
+          rel="noopener noreferrer"
+        >
+          <p>
+            An internationalized website using i18next to deliver content in
+            both English and Spanish.
+          </p>
+        </a>
+      </div>
+      <div className={styles.formContainer}>
+        <form
+          action="https://formsubmit.co/julieyudo@gmail.com"
+          method="POST"
+          className={styles.form}
+        >
+          <input
+            type="text"
+            placeholder="Name"
+            name="name"
+            required
+            className={styles.field}
+          ></input>
+          <br></br>
+          <textarea
+            type="text"
+            placeholder="Message"
+            name="message"
+            className={styles.messageField}
+          ></textarea>
+          <br></br>
+          <input
+            type="email"
+            placeholder="E-mail"
+            name="email"
+            required
+            className={styles.field}
+          ></input>
+          <br></br>
+          <input
+            type="hidden"
+            name="_next"
+            value="https://julieyudowitch.com/thank-you"
+          ></input>
+          <button type="submit" className={styles.send}>
+            Message Me
+          </button>
+        </form>
+      </div>
+
       <Footer />
     </div>
   );

@@ -50,9 +50,11 @@ color: #0e1d30;
 
 .infoUL {
  padding: 0;
+
 }
-.infoLI {
- 
+.infoLI {  
+ background-color: #5c697b;
+margin-top: 20px;
 }
 
 @media (max-width: 1550px) {

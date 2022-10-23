@@ -1,6 +1,7 @@
 .homePage {
   position: relative;
   color: #0e1d30;
+  background-color:#ECECEC;
 }
 .projects {
   grid-area: pro;
@@ -21,10 +22,11 @@
     "pro pro"
   ;
   grid-template-columns: 2fr 1fr;
-  grid-auto-rows: minmax(50px, auto);
+  grid-auto-rows: minmax(0px, auto);
   padding: 50px;
   column-gap: 100px;
   row-gap: 20px;
+  
 }
 
 .homeImgContainer {
@@ -39,19 +41,123 @@
   width: 100%;
 }
 
+.name {
+  color: #ded7f4;
+}
+
 .homeIntroCard {
   grid-area: about;
-
 }
 
 .homeIntro {
   font-size: 27px;
-  background-color: rgb(208, 215, 222);
+  background-color: #ECECEC;
   box-shadow: 1px 1px 4px rgb(31, 29, 29);
   border: 0.5px solid rgb(92, 90, 90);
   padding: 150px;
   margin: auto;
   line-height: 30px;
+}
+.gradientsection {
+background-image: linear-gradient(to bottom right,
+      rgb(7, 13, 29),
+      rgb(35, 104, 101));
+}
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.nextImgContainer {
+  width: 15%;
+  margin: 20px 30px;
+}
+.reactImgContainer {
+  width: 15%;
+  margin: 20px 30px;
+}
+.htmlImgContainer {
+  width: 15%;
+  margin: 20px 30px;
+}
+.cssImgContainer {
+  width: 15%;
+  margin: 20px 30px;
+}
+.jsImgContainer {
+  width: 15%;
+  margin: 20px 30px;
+}
+.gitImgContainer {
+width: 15%;
+  margin: 20px 30px;
+}
+.nodeImgContainer {
+width: 15%;
+  margin: 20px 30px;
+  background-color: #EFEFEF;
+}
+
+.formContainer {
+  display: flex;
+  width: 80%;
+  padding: 80px;
+  margin: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(7, 13, 29);
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: white;
+  padding: 50px;
+  width: 100%;
+}
+
+.field {
+  margin: 20px;
+  background-color: rgb(230, 229, 227);
+  padding: 15px;
+  text-align: left;
+  border: 1px solid rgb(7, 13, 29);
+  width: 100%;
+  margin: 0;
+}
+
+.messageField {
+  height: 200px;
+  margin: 20px;
+  background-color: rgb(230, 229, 227);
+  padding: 15px;
+  text-align: left;
+  border: 1px solid rgb(7, 13, 29);
+  width: 100%;
+  margin: 0;
+}
+
+.send {
+  margin: 20px;
+  padding: 15px;
+  width: 200px;
+  background-color: rgb(230, 229, 227);
+  cursor: pointer;
+  color: rgb(7, 13, 29);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  color: rgb(7, 13, 29);
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
 }
 
 @media (max-width: 2000px) {
@@ -175,7 +281,8 @@
     padding-top: 40px;
   }
   .homeIntroCard {
-    padding: 5px;
+    width: 95%;
+    margin: auto;
   }
   .homeTitle {
     font-size: 26px;
@@ -184,6 +291,11 @@
   .homeIntro {
     font-size: 22px;
     padding: 30px;
+  }
+  .formContainer {
+    width: 95%;
+    padding: 10px;
+    padding-bottom: 50px;
   }
 }
 

@@ -62,7 +62,7 @@ function Nav(props) {
                   <p className={styles.navlinkname}>Home</p>
                 </Link>
               </div>
-              <div>
+              {/*<div>
                 <Link
                   href="/about"
                   ref={menuref}
@@ -82,8 +82,8 @@ function Nav(props) {
                 >
                   <p className={styles.navlinkname}>contact</p>
                 </Link>
-              </div>
-            </div>
+  </div>*/}
+  </div>
 
             <div
               className={styles.mobilemenuicon}
