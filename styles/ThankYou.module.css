@@ -11,27 +11,26 @@
   margin: 40px;
   font-size: 4vh;
 }
+.return {
+  cursor: pointer;
+}
+@media (max-width: 1000px) {
+  .thankYou {
+    padding-top: 100px;
+  }
+}
 
 @media (max-width: 800px) {
   .thankYou {
-    padding-top: 150px;;
-   
+    padding-top: 80px;
+   height: 100%;
   }
   .thankYouMessage {
     
   }
 }
 
-@media (max-width: 600px) {
-  .thankYou {
-   padding: 150px 15px;
-    
-  }
-}
 
 @media (max-width: 400px) {
-  .thankYou {
-    padding: 150px 10px;
 
-  }
 }

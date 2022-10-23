@@ -67,6 +67,7 @@ background-image: linear-gradient(to bottom right,
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   padding-bottom: 50px;
 }
 .nextImgContainer {
@@ -74,7 +75,7 @@ background-image: linear-gradient(to bottom right,
   margin: 20px 30px;
 }
 .reactImgContainer {
-  width: 15%;
+  width: 25%;
   margin: 20px 30px;
 }
 .htmlImgContainer {

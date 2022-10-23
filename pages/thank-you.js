@@ -17,7 +17,7 @@ function ThankYou(props) {
             Thank-you for your message. I will be in touch shortly.
           </h1>
           <Link href="/" passHref>
-            <p>Return Home</p>
+            <p className={styles.return}>Return Home</p>
           </Link>
         </div>
       </div>

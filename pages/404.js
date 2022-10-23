@@ -8,7 +8,7 @@ export default function FourOhFour(props) {
       <div className={styles.fourOhFourPageContent}>
         <h1>404 | Not Found</h1>
         <Link href="/">
-          <a>Return Home</a>
+          <a className={styles.return}>Return Home</a>
         </Link>
       </div>
       <Footer />
