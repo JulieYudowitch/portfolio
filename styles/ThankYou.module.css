@@ -1,8 +1,10 @@
-.thankYou {
-  
+.thankYouPage {
+height: 600px;
+}
+.thankYou {  
   padding-top:200px;
   color: #0e1d30;
-  height: 600px;
+  padding-bottom: 100px;
 }
 
 .thankYouMessage {
@@ -13,6 +15,8 @@
 }
 .return {
   cursor: pointer;
+  max-width: 150px;
+  margin: auto;
 }
 @media (max-width: 1000px) {
   .thankYou {
@@ -22,12 +26,9 @@
 
 @media (max-width: 800px) {
   .thankYou {
-    padding-top: 80px;
-   height: 100%;
+   padding-bottom: 100px;
   }
-  .thankYouMessage {
-    
-  }
+ 
 }
 
 
