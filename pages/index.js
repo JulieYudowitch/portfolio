@@ -71,7 +71,7 @@ export default function Home(props) {
               Next.js and React. I studied Web Development on CodeCademy and
               completed thier Front-end path in Nov 2021. I enjoy solving
               problems whether it requires a little out of the box thinking,
-              something much more practical or maybe a mixture of both!
+              something much more practical, or maybe a mixture of both!
             </p>
           </div>
         </div>
