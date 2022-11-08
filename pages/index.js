@@ -66,7 +66,6 @@ export default function Home(props) {
             <p className={styles.name}>Front-End Developer | Next.js</p>
           </div>
           <div className={styles.homeIntroCard}>
-            <p className={styles.homeIntro}>test change</p>
             <p className={styles.homeIntro}>
               Hi I'm Julie Yudowitch and I build responsive webapps using
               Next.js and React. I studied Web Development on CodeCademy and
