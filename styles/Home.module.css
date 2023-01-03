@@ -5,6 +5,9 @@
 }
 .projects {
   grid-area: pro;
+  margin: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .homeTitle {
@@ -295,6 +298,9 @@ width: 18%;
     width: 95%;
     padding: 10px;
     padding-bottom: 50px;
+  }
+  .projects {
+    display: block;
   }
 }
 

@@ -168,35 +168,66 @@ export default function Home(props) {
           </div>
         </div>
       </div>
+      <h2>Projects</h2>
       <div className={styles.projects}>
-        <h2>Projects</h2>
-        <a
-          href="https://internationalbusiness.netlify.app/"
-          target="blank"
-          rel="noopener noreferrer"
-        >
-          <div className={styles.projectImg}>
-            <Image
-              src="/project.webp"
-              alt=""
-              width="1447"
-              height="860"
-              placeholder="blur"
-              blurDataURL="/project.webp"
-            />
-          </div>
-        </a>
+        <div className={styles.project}>
+          <a
+            href="https://internationalbusiness.netlify.app"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <div className={styles.projectImg}>
+              <Image
+                src="/project.webp"
+                alt=""
+                width="1447"
+                height="860"
+                placeholder="blur"
+                blurDataURL="/project.webp"
+              />
+            </div>
+          </a>
 
-        <a
-          href="https://internationalbusiness.netlify.app/"
-          target="blank"
-          rel="noopener noreferrer"
-        >
-          <p>
-            An internationalized website using i18next to deliver content in
-            both English and Spanish.
-          </p>
-        </a>
+          <a
+            href="https://internationalbusiness.netlify.app"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <p>
+              An internationalized website using i18next to deliver content in
+              both English and Spanish.
+            </p>
+          </a>
+        </div>
+        <div className={styles.project}>
+          <a
+            href="https://juliesgardenblog.vercel.app"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <div className={styles.projectImg}>
+              <Image
+                src="/gardenblog.webp"
+                alt=""
+                width="1334"
+                height="861"
+                placeholder="blur"
+                blurDataURL="/gardenblog.webp"
+              />
+            </div>
+          </a>
+
+          <a
+            href="https://juliesgardenblog.vercel.app"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <p>
+              A blog I made to post pictures of plants and anything related to
+              plants.
+            </p>
+          </a>
+        </div>
       </div>
       <div className={styles.formContainer}>
         <form
