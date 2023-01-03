@@ -3,7 +3,7 @@ import Image from "next/dist/client/image";
 
 function Banner() {
   return (
-    <header>         
+    <header className={styles.header}>         
           <h1 className={styles.homeTitle}>
             JULIE YUDOWITCH<br></br>
             <span className={styles.homeTitleDescript}>

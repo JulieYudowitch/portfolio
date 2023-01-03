@@ -4,7 +4,6 @@
   background-color:#dfdddd;
 }
 .projects {
-  grid-area: pro;
   margin: 20px;
   display: flex;
   gap: 20px;
@@ -35,11 +34,11 @@ background-color: #0e1d30;
   display: grid;
   grid-template-areas:
     "about img"
-    "pro pro"
   ;
   grid-template-columns: 2fr 1fr;
   grid-auto-rows: minmax(0px, auto);
   padding: 50px;
+  padding-bottom: 10px;
   column-gap: 100px;
   row-gap: 20px;
   
@@ -63,7 +62,7 @@ background-color: #0e1d30;
 
 .homeIntroCard {
   grid-area: about;
-  margin: auto;
+ 
 }
 
 .homeIntro {
@@ -79,6 +78,7 @@ background-color: #0e1d30;
 background-image: linear-gradient(to bottom right,
       rgb(7, 13, 29),
       rgb(35, 104, 101));
+      padding-top: 200px;
 }
 .tech {
   display: flex;
@@ -252,6 +252,9 @@ width: 18%;
   }
   .homeImgContainer {
     width: 100%;
+  }
+  .gradientsection {
+    padding-top: 130px;
   }
 }
 

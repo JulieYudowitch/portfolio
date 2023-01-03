@@ -1,3 +1,9 @@
+.header {
+  position: fixed;
+  background-color:#dfdddd;
+  z-index: 900;
+  width: 100%;
+}
 .homeTitle {
 font-size: 95px;
 font-weight: bold;
