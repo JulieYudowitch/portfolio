@@ -1,13 +1,26 @@
 .homePage {
   position: relative;
   color: #0e1d30;
-  background-color:#ECECEC;
+  background-color:#dfdddd;
 }
 .projects {
   grid-area: pro;
   margin: 20px;
   display: flex;
   gap: 20px;
+}
+.project {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.projectDescript {
+  padding: 10px;
+  margin-bottom: 0;
+}
+.projectImg {
+padding: 10px;
+background-color: #0e1d30;
 }
 
 .homeTitle {

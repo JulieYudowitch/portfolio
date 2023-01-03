@@ -180,8 +180,8 @@ export default function Home(props) {
               <Image
                 src="/gardenblog.webp"
                 alt=""
-                width="1334"
-                height="861"
+                width="1246"
+                height="873"
                 placeholder="blur"
                 blurDataURL="/gardenblog.webp"
               />
@@ -193,7 +193,9 @@ export default function Home(props) {
             target="blank"
             rel="noopener noreferrer"
           >
-            <p>A blog I built using Next.js, NextAuth, and Firebase</p>
+            <p className={styles.projectDescript}>
+              A blog I built using Next.js, NextAuth, and Firebase
+            </p>
           </a>
         </div>
         <div className={styles.project}>
@@ -219,9 +221,9 @@ export default function Home(props) {
             target="blank"
             rel="noopener noreferrer"
           >
-            <p>
-              An internationalized app using i18next to deliver content in
-              both English and Spanish.
+            <p className={styles.projectDescript}>
+              An internationalized app using i18next to deliver content in both
+              English and Spanish.
             </p>
           </a>
         </div>
