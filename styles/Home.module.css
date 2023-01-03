@@ -301,6 +301,10 @@ width: 18%;
   }
   .projects {
     display: block;
+    
+  }
+  .project {
+padding-bottom: 30px;
   }
 }
 
