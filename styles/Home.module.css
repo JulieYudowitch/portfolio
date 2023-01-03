@@ -47,14 +47,14 @@ background-color: #0e1d30;
 
 .homeImgContainer {
   grid-area: img;
-  width: 100%;
+  width: 80%;
+  margin: auto;
 }
 
 .homeImg>span {
   display: flex;
   border: 0.5px solid rgb(92, 90, 90);
   box-shadow: 2px 3px 5px rgb(31, 29, 29);
-  width: 100%;
 }
 
 .name {
@@ -63,6 +63,7 @@ background-color: #0e1d30;
 
 .homeIntroCard {
   grid-area: about;
+  margin: auto;
 }
 
 .homeIntro {
@@ -195,6 +196,7 @@ width: 18%;
 }
 
 @media (max-width: 1500px) {
+  
   .homeIntro {
     font-size: 22px;
   }
@@ -230,6 +232,9 @@ width: 18%;
 }
 
 @media (max-width: 1150px) {
+  .homeIntroCard {
+    margin: 0;
+  }
   .homeTitle {
     font-size: 35px;
   }
@@ -244,6 +249,9 @@ width: 18%;
       "pro pro"
       ;
     grid-template-columns: 1fr 1.5fr;
+  }
+  .homeImgContainer {
+    width: 100%;
   }
 }
 
