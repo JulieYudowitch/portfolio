@@ -117,6 +117,10 @@ width: 20%;
   margin: 20px 30px;
   background-color: #EFEFEF;
 }
+.pythonImgContainer {
+width: 19%;
+  margin: 20px 30px;
+}
 
 .formContainer {
   display: flex;

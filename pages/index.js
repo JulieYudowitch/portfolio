@@ -166,6 +166,18 @@ export default function Home(props) {
               />
             </div>
           </div>
+          <div className={styles.pythonImgContainer}>
+            <div className={styles.pythonImg}>
+              <Image
+                src="/python.webp"
+                alt=""
+                width="449"
+                height="502"
+                placeholder="blur"
+                blurDataURL="/python.webp"
+              />
+            </div>
+          </div>
         </div>
       </div>
       <h2>Projects</h2>
