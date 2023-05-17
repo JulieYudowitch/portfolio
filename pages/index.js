@@ -184,6 +184,35 @@ export default function Home(props) {
       <div className={styles.projects}>
         <div className={styles.project}>
           <a
+            href="https://internationalbusiness.netlify.app"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <div className={styles.projectImg}>
+              <Image
+                src="/intlbusiness.webp"
+                alt=""
+                width="886"
+                height="889"
+                placeholder="blur"
+                blurDataURL="/intlbusiness.webp"
+              />
+            </div>
+          </a>
+
+          <a
+            href="https://internationalbusiness.netlify.app"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <p className={styles.projectDescript}>
+              An internationalized app using i18next to deliver content in both
+              English and Spanish.
+            </p>
+          </a>
+        </div>
+        <div className={styles.project}>
+          <a
             href="https://juliesgardenblog.vercel.app"
             target="blank"
             rel="noopener noreferrer"
@@ -206,36 +235,7 @@ export default function Home(props) {
             rel="noopener noreferrer"
           >
             <p className={styles.projectDescript}>
-              A blog I built using Next.js, NextAuth, and Firebase
-            </p>
-          </a>
-        </div>
-        <div className={styles.project}>
-          <a
-            href="https://internationalbusiness.netlify.app"
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            <div className={styles.projectImg}>
-              <Image
-                src="/project.webp"
-                alt=""
-                width="1447"
-                height="860"
-                placeholder="blur"
-                blurDataURL="/project.webp"
-              />
-            </div>
-          </a>
-
-          <a
-            href="https://internationalbusiness.netlify.app"
-            target="blank"
-            rel="noopener noreferrer"
-          >
-            <p className={styles.projectDescript}>
-              An internationalized app using i18next to deliver content in both
-              English and Spanish.
+              Built with Next.js, NextAuth, and Firebase
             </p>
           </a>
         </div>
