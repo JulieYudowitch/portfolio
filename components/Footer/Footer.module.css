@@ -1,6 +1,6 @@
 .footer {
     border-top: 0.5px solid grey;
-    color: #ded7f4;
+    color: #dfdddd;
 }
 .footContent {   
     background-image: linear-gradient(to bottom right, rgb(35, 104, 101),
@@ -34,7 +34,7 @@
 }
 
 .email {
-    color: #ded7f4;
+    color: #dfdddd;
 }
 
 .copyright {

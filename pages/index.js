@@ -53,7 +53,7 @@ export default function Home(props) {
       <div className={styles.gradientsection}>
         <div className={styles.homeGrid}>
           <div className={styles.homeImgContainer}>
-            <div className={styles.homeImg}>
+            <div>
               <Image
                 src="/avatar.webp"
                 alt=""
@@ -61,6 +61,7 @@ export default function Home(props) {
                 height="826"
                 placeholder="blur"
                 blurDataURL="/avatar.webp"
+                className={styles.homeImg}
               />
             </div>
             <p className={styles.name}>Front-End Developer | Next.js</p>

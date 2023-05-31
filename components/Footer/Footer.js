@@ -20,7 +20,7 @@ function Footer() {
             target="blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon color="#ded7f4" icon={faLinkedin} size="2x" />
+            <FontAwesomeIcon color="#dfdddd" icon={faLinkedin} size="2x" />
           </a>
           <a
             href="https://github.com/JulieYudowitch"
@@ -28,7 +28,7 @@ function Footer() {
             target="blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon color="#ded7f4" icon={faGithub} size="2x" />
+            <FontAwesomeIcon color="#dfdddd" icon={faGithub} size="2x" />
           </a>
         </div>
         <a
