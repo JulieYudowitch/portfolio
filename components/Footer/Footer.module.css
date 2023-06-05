@@ -92,12 +92,18 @@
     .payMethods {
         width: 60%;
     }
+    .footContent {
+        padding: 50px 10px;
+    }
 }
 
 @media (max-width: 450px) {
 
 .payMethods {
     width: 80%;
+}
+.email {
+    font-size: 18px;
 }
 }
 

@@ -143,7 +143,7 @@ width: 19%;
   color: white;
   padding: 50px;
   width: 100%;
-  border-radius: 90px;
+  border-radius: 20px;
   box-shadow: 1px 3px 10px rgb(35, 104, 101);
 }
 
@@ -388,6 +388,10 @@ padding: 40px
   }
   .gradientsection {
     padding-top: 130px;
+  }
+  .form {
+    padding: 30px 15px;
+    border-radius: 20px;
   }
 }
 
