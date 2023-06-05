@@ -409,9 +409,12 @@ padding: 40px
   .homeTitle {
     letter-spacing: 0px;
   }
-
+.name {
+  font-size: 18px;
+  margin: 10px 0px 0px;
+}
   .homeIntro {
-    font-size: 18px;
+    font-size: 16px;
   }
   .gradientsection {
     padding-top: 120px;
