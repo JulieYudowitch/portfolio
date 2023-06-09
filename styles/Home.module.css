@@ -12,6 +12,7 @@
   background-color: white;
   padding: 20px;
   margin-bottom: 20px;
+  border-radius: 10px;
 }
 .projectDescript {
   padding: 10px;
@@ -20,6 +21,7 @@
 .projectImg {
 padding: 10px;
 background-color: #0e1d30;
+border-radius: 5px;
 }
 
 .homeTitle {
